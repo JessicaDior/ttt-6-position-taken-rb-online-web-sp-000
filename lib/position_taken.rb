@@ -3,10 +3,9 @@ index =
 
 def position_taken?(board, index)
 
-if board[index] != " " or "" or nil
-  true
+if (board[index] == " ") || (board[index] == "") || (board[index] == nil)
+  return false
 else
-  false
+  return true
 end
-
 end
